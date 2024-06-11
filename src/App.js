@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import config from "./index.json";
 
-function App() {
+const Hero = () => {
+  const hero = config.hero;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+  <body className='text-black'>
+    <section className="h-screen bg-white overflow-x-hidden">
+      <div className="px-8 lg:px-32 flex flex-col justify-center align-between">
+        <h1 className="text-6xl mt-64 font-bold tracking-wide">
+          Hi, my name is  
+          <span className="ml-3 whitespace-nowrap bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+            {hero.name}
+          </span>
+        </h1>
+        <h1 className="text-6xl font-bold tracking-wide mt-4">{hero.subtitle}</h1>
+        <a href="#About" className="text-2xl font-bold p-0.5 mt-6 w-44 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
+          <div className="bg-white">
+            <span className="block text-center py-0.5 px-2 font-semibold bg-white font-bold bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
+              Know more
+            </span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </body>
+  );
+};
+
+export default Hero;
