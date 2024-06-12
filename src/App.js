@@ -6,6 +6,12 @@ const Hero = () => {
 
   return (
 
+<html lang="en" className='bg-white'>
+<head>
+  <meta charSet="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{hero.name}</title>
+</head>
   <body className='text-black'>
     <section className="h-screen bg-white overflow-x-hidden">
       <div className="px-8 lg:px-32 flex flex-col justify-center align-between">
