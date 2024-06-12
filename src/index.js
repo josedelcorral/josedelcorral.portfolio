@@ -2,8 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "@fontsource/inter"; // Defaults to weight 400
 import './global.css';
-
+<script
+  type="text/javascript"
+  src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js">
+</script>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

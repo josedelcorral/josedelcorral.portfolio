@@ -9,6 +9,7 @@ module.exports = {
 		"./app/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./public/index.html",
+    "./node_modules/tw-elements/js/**/*.js",
 	],
 	theme: {
 		extend: {
@@ -33,13 +34,6 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [
-		// plugin(function ({ addBase, theme }) {
-		// 	addBase({
-		// 		h1: { fontSize: theme("fontSize.2xl") },
-		// 		h2: { fontSize: theme("fontSize.xl") },
-		// 		h3: { fontSize: theme("fontSize.lg") },
-		// 	});
-		// }),
-	],
+	plugins: [require("tw-elements/plugin.cjs")],
+  darkMode: "class"
 };
