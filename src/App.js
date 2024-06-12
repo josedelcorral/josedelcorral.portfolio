@@ -19,10 +19,10 @@ const Hero = () => {
         
         <span className="pt-5 bg-white inline-block">
           
-        <a href="#About" className="text-xl py-0.5 pr-2 font-semibold bg-white font-bold bg-gradient-to-r from-red-400 via-black-500 to-blue-500 bg-clip-text text-transparent">Linkedin</a>     
-        <a href="#About" className="text-xl py-0.5 px-2 font-semibold bg-white font-bold bg-gradient-to-r from-red-400 via-black-500 to-blue-500 bg-clip-text text-transparent">Github</a>     
-        <a href="#About" className="text-xl py-0.5 px-2 font-semibold bg-white font-bold bg-gradient-to-r from-red-400 via-black-500 to-blue-500 bg-clip-text text-transparent">X</a>
-        <a href="#About" className="text-xl py-0.5 px-2 font-semibold bg-white font-bold bg-gradient-to-r from-red-400 via-black-500 to-blue-500 bg-clip-text text-transparent">Contact</a></span>
+        <a href="https://www.linkedin.com/in/josedelcorral/" className="text-xl py-0.5 pr-2 font-semibold bg-white font-bold bg-gradient-to-r from-red-400 via-black-500 to-blue-500 bg-clip-text text-transparent">Linkedin</a>     
+        <a href="https://github.com/josedelcorral" className="text-xl py-0.5 px-2 font-semibold bg-white font-bold bg-gradient-to-r from-red-400 via-black-500 to-blue-500 bg-clip-text text-transparent">Github</a>     
+        <a href="https://twitter.com/j0se" className="text-xl py-0.5 px-2 font-semibold bg-white font-bold bg-gradient-to-r from-red-400 via-black-500 to-blue-500 bg-clip-text text-transparent">X</a>
+        <a href="mailto:jose@josedelcorral.com" className="text-xl py-0.5 px-2 font-semibold bg-white font-bold bg-gradient-to-r from-red-400 via-black-500 to-blue-500 bg-clip-text text-transparent">Contact</a></span>
 
       </div>
     </section>
